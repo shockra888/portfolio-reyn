@@ -1,0 +1,164 @@
+html,body{
+    background-image: url('../images/HD-Wallpaper-Soft-Aesthetic.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+}
+#overlay{
+    position: fixed;
+    z-index: 10;
+}
+.loading{
+    height: 100%;
+    width: 100%;
+}
+.windowCont{
+    max-height: inherit;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.crdbout{
+    width: 50%;
+    margin: auto;
+    display: inline-block;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+}
+.crdclock{
+    width: 70%;
+    margin: auto;
+    display: inline-block;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+}
+.crdTer{
+    width: 50%;
+    margin: auto;
+    display: inline-block;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+}
+.crdFile{
+    width: 60%;
+    height: 33rem;
+    margin: auto;
+    display: inline-block;
+    z-index: 1;
+    overflow: auto;
+    position: absolute;
+}
+.crdProfile{
+    width: 50%;
+    margin: auto;
+    display: inline-block;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+}
+.btnX,.btnC,.btnT,.btnFM,.btnPr{
+    float: right;
+}
+.aboutTxt{
+    color: white;
+}
+.sysLogo{
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: rotation 2s infinite linear;
+}
+.topLogo{
+    width: 30px;
+    z-index: 1;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+hr{
+    color: black;
+}
+#navbarDropdown{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#digital-clock{
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;   
+}
+#digital-clock-show{
+    text-align: center;
+    font-size: xx-large;
+    border: 3px solid black;
+    border-radius: 1%;
+    box-shadow: 5px 10px black;
+}
+.profile-thumbnail{
+    width: 150px;
+    height: 150px;
+    border: 3px dotted black;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.Uname{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Locktain{
+    width: 100%;
+    height: 100%;
+    background-color: #17202A;
+    position: absolute;
+    z-index: 1;
+}
+#digital-clock-lock{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+#date-lock{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+.Locklogo{
+    width: 80px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 4%;
+    display: block;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+@keyframes zoom-in-zoom-out {
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.5,1.5);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
